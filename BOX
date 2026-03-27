@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Band Introduction</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">BandName</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#members">Members</a>
+      <a href="#tour">Tour</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home" class="home">
+    <div class="banner">
+      <h1>We are BandName</h1>
+      <p>The pulse of the new generation.</p>
+    </div>
+  </main>
+
+  <section id="members" class="members">
+    <h2>Meet Our Members</h2>
+    <div class="member-card">
+      <img src="member1.jpg" alt="Member 1">
+      <h3>Member 1</h3>
+      <p>Role: Guitarist</p>
+      <p>"Always in the groove."</p>
+    </div>
+    <div class="member-card">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Member 2</h3>
+      <p>Role: Vocalist</p>
+      <p>"Singing the story of our lives."</p>
+    </div>
+    <!-- 추가 멤버 삽입 가능 -->
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 BandName. All rights reserved.</p>
+  </footer>
+</body>
+</html>
